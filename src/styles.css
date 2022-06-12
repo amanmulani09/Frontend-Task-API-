@@ -1,0 +1,80 @@
+* {
+  background-color: azure;
+}
+
+.main {
+  border: 2px solid slateblue;
+  width: 70%;
+  height: 75vh;
+  margin-top: 10vh;
+  margin-left: 20vh;
+  border-radius: 7px;
+  box-shadow: 5px 5px 5px 5px darkgrey;
+}
+
+.btnContainer {
+  /* border: 2px solid grey; */
+  width: 60%;
+  height: 10vh;
+  margin-top: 26vh;
+  margin-left: 50vh;
+}
+
+.btnContainer button {
+  font-size: 1.4rem;
+  padding: 5px;
+  margin-left: 12px;
+  cursor: pointer;
+  border: 2px solid slateblue;
+  border-radius: 4px;
+}
+
+.btnContainer button:hover {
+  background-color: slateblue;
+  color: white;
+}
+
+.card {
+  border: 2px solid violet;
+  width: 70%;
+  height: 30vh;
+  border-radius: 9px;
+  margin-left: 13%;
+  margin-top: 6vh;
+}
+
+
+.card img{
+  border-radius: 50%;
+  margin-left: 23px;
+  margin-top: 23px;
+}
+
+.info{
+  /* border:2px solid grey; */
+margin-top: -110px;
+margin-left: 200px;
+
+}
+
+.name{
+  font-size:2.2rem;
+  color:blueviolet;
+}
+
+.surname{
+  font-size: 2.2rem;
+  color: blueviolet;
+}
+
+.email{
+  margin-left: 12px;
+  margin-top: 41px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.error{
+  font-size: 2rem;
+  margin-top: 142px;
+}
